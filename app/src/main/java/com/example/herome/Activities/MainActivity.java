@@ -1,7 +1,9 @@
-package com.example.herome;
+package com.example.herome.Activities;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
+import com.example.herome.R;
 
 public class MainActivity extends AppCompatActivity {
 

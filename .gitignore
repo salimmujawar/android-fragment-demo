@@ -1,13 +1,44 @@
+# built application files
+*.apk
+*.ap_
+
+# files for the dex VM
+*.dex
+
+# Java class files
+*.class
+
+# generated files
+bin/
+gen/
+out/
+build.log
+build-log.xml
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+.project
+.classpath
+.settings
+target/
+libs/
+classes/
+gen-external-apklibs/
+build/
+tmp/
+
+# IDEA Ignores
 *.iml
-.gradle
-/local.properties
-/.idea/caches
-/.idea/libraries
-/.idea/modules.xml
-/.idea/workspace.xml
-/.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
-.DS_Store
-/build
-/captures
-.externalNativeBuild
+*.ipr
+*.iws
+.idea/
+local.properties
+project.properties
+.gradle/
+
+# MAC
+*.DS_Store
+
+build
+lint-results.xml
