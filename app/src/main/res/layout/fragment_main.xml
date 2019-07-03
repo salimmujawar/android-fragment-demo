@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frnLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/hero_bg_gradient"
+    tools:context=".Fragments.MainFragment">
+
+    <LinearLayout
+        android:id="@+id/mainBg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/tbarMain"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#26394B"
+            android:minHeight="?attr/actionBarSize"
+            android:padding="0dp"
+            android:theme="?attr/actionBarTheme">
+
+            <android.support.v7.widget.AppCompatImageView
+                android:id="@+id/imgBanner"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="0dp"
+                android:padding="0dp"
+                app:srcCompat="@drawable/topbannerbar"/>
+        </android.support.v7.widget.Toolbar>
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:src="@drawable/heroes" />
+
+        <Button
+            android:id="@+id/btnAccident"
+            android:layout_width="285dp"
+            android:layout_height="55dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/hero_button"
+            android:drawableLeft="@drawable/lightning_icon"
+            android:drawableRight="@drawable/item_selected_btn"
+            android:paddingLeft="5dp"
+            android:paddingRight="10dp"
+            android:text="Came By Accident"
+            android:textColor="#FFD202" />
+
+        <Button
+            android:id="@+id/btnGenetic"
+            android:layout_width="285dp"
+            android:layout_height="55dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/hero_button"
+            android:drawableLeft="@drawable/atomic_icon"
+            android:paddingLeft="5dp"
+            android:paddingRight="10dp"
+            android:text="Genetic Mutation"
+            android:textColor="#FFD202" />
+
+        <Button
+            android:id="@+id/btnBorn"
+            android:layout_width="285dp"
+            android:layout_height="55dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/hero_button"
+            android:drawableLeft="@drawable/rocket_icon"
+            android:paddingLeft="5dp"
+            android:paddingRight="10dp"
+            android:text="Born With Them"
+            android:textColor="#FFD202" />
+
+        <Button
+            android:id="@+id/btnChoose"
+            android:layout_width="285dp"
+            android:layout_height="55dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/hero_button"
+            android:backgroundTint="#FBC82F"
+            android:paddingLeft="5dp"
+            android:paddingRight="10dp"
+            android:text=" Choose Powers"
+            android:textColor="#131B23"
+            android:textSize="22sp" />
+    </LinearLayout>
+
+</FrameLayout>
